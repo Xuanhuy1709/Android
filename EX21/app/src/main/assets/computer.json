@@ -19,16 +19,6 @@
       "id": 4,
       "name": "Dell XPS",
       "price": 1500
-    },
-    {
-      "id": 5,
-      "name": "Surface Pro",
-      "price": 1200
-    },
-    {
-      "id": 6,
-      "name": "HP Spectre",
-      "price": 1600
     }
   ],
   "category_id": 1,
