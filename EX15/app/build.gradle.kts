@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "net.nemisolv.studentmanagement"
-    compileSdk = 34
+    namespace = "com.example.ex15"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "net.nemisolv.studentmanagement"
+        applicationId = "com.example.ex15"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -26,8 +26,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
 }
 
@@ -37,7 +37,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.gridlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
